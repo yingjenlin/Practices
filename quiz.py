@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[4]:
-
 
 class Question:
     def __init__(self, prompt, answer):
@@ -30,28 +25,3 @@ def run_quiz(questions):
     print("You got " + str(score) + '/' + str(len(questions)) + " correct")
 
 run_quiz(questions)
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
